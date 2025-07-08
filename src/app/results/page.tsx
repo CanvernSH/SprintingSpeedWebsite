@@ -22,6 +22,9 @@ export default function ResultsPage() {
             <li>
               <Link href="/results" className="hover:text-blue-600 transition">Results</Link>
             </li>
+            <li>
+              <Link href="/plans" className="hover:text-blue-600 transition">Plans</Link>
+            </li>
           </ul>
 
           {/* Mobile Hamburger */}
