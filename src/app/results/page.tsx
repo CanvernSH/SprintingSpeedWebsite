@@ -55,7 +55,7 @@ export default function ResultsPage() {
               <Link href="/results" className="block hover:text-blue-600 transition" onClick={() => setNavOpen(false)}>Results</Link>
             </li>
             <li>
-              <Link href="/plan" className="block hover:text-blue-600 transition" onClick={() => setNavOpen(false)}>Plan</Link>
+              <Link href="/plans" className="block hover:text-blue-600 transition" onClick={() => setNavOpen(false)}>Plans</Link>
             </li>
           </ul>
         )}
