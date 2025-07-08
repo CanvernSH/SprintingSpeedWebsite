@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from 'next/link';
 
 export default function Home() {
   const [navOpen, setNavOpen] = useState(false);
@@ -20,9 +21,9 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="/results" className="hover:text-blue-600 transition">
+              <Link href="/results" className="hover:text-blue-600 transition">
                 Results
-              </a>
+              </Link>
             </li>
             <li>
               <a href="#about" className="hover:text-blue-600 transition">
