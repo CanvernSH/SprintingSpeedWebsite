@@ -78,7 +78,7 @@ export default function SportPlans() {
           <p className="text-gray-700 mb-12">Choose a plan that fits your training goals and commitment level.</p>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {plans.map((plan, i) => (
+            {plans.map((plan) => (
               <div key={plan.name} className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
                 <h2 className="text-2xl font-bold text-blue-600 mb-2">{plan.name}</h2>
                 <p className="text-xl text-gray-800 mb-1">{plan.detail}</p>
