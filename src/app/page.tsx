@@ -179,7 +179,7 @@ export default function Home(): JSX.Element {
 
         {/* Footer */}
         <footer className="py-10 px-6 bg-gray-800 text-gray-300 text-center">
-          <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved</p>
         </footer>
       </div>
     </>
