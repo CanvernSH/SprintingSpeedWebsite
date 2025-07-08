@@ -20,7 +20,7 @@ export default function ResultsPage() {
               <Link href="/" className="hover:text-blue-600 transition">Home</Link>
             </li>
             <li>
-              <a href="/results" className="hover:text-blue-600 transition">Results</a>
+              <Link href="/results" className="hover:text-blue-600 transition">Results</Link>
             </li>
           </ul>
 
@@ -46,10 +46,10 @@ export default function ResultsPage() {
         {navOpen && (
           <ul className="md:hidden bg-white shadow-md space-y-4 py-4 px-6 text-gray-700 font-semibold">
             <li>
-              <a href="/" className="block hover:text-blue-600 transition" onClick={() => setNavOpen(false)}>Home</a>
+              <Link href="/" className="block hover:text-blue-600 transition" onClick={() => setNavOpen(false)}>Home</Link>
             </li>
             <li>
-              <a href="/results" className="block hover:text-blue-600 transition" onClick={() => setNavOpen(false)}>Results</a>
+              <Link href="/results" className="block hover:text-blue-600 transition" onClick={() => setNavOpen(false)}>Results</Link>
             </li>
           </ul>
         )}

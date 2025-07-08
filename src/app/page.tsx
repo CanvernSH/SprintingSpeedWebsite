@@ -16,9 +16,9 @@ export default function Home() {
           {/* Desktop Links */}
           <ul className="hidden md:flex space-x-8 text-gray-700 font-semibold">
             <li>
-              <a href="#home" className="hover:text-blue-600 transition">
+              <Link href="#home" className="hover:text-blue-600 transition">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
               <Link href="/results" className="hover:text-blue-600 transition">
@@ -26,19 +26,19 @@ export default function Home() {
               </Link>
             </li>
             <li>
-              <a href="#about" className="hover:text-blue-600 transition">
+              <Link href="#about" className="hover:text-blue-600 transition">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#services" className="hover:text-blue-600 transition">
+              <Link href="#services" className="hover:text-blue-600 transition">
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#contact" className="hover:text-blue-600 transition">
+              <Link href="#contact" className="hover:text-blue-600 transition">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
 
