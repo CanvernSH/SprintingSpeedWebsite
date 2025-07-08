@@ -53,6 +53,8 @@ export default function SportPlans() {
               <Link href="/plans" className="hover:text-blue-600 transition">Plans</Link>
             </li>
           </ul>
+
+          {/* Mobile Hamburger */}
           <button
             className="md:hidden text-gray-700 focus:outline-none"
             onClick={() => setNavOpen(!navOpen)}
@@ -63,11 +65,13 @@ export default function SportPlans() {
             </svg>
           </button>
         </div>
+
+        {/* Mobile Menu */}
         {navOpen && (
           <ul className="md:hidden bg-white shadow-md space-y-4 py-4 px-6 text-gray-700 font-semibold">
             <li><Link href="/" className="block hover:text-blue-600 transition" onClick={() => setNavOpen(false)}>Home</Link></li>
             <li><Link href="/results" className="block hover:text-blue-600 transition" onClick={() => setNavOpen(false)}>Results</Link></li>
-            <li><Link href="/sportplans" className="block hover:text-blue-600 transition" onClick={() => setNavOpen(false)}>Sport Plans</Link></li>
+            <li><Link href="/plans" className="block hover:text-blue-600 transition" onClick={() => setNavOpen(false)}>Plans</Link></li>
           </ul>
         )}
       </nav>

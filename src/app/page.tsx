@@ -104,6 +104,22 @@ export default function Home() {
               </a>
             </li>
             <li>
+              <Link
+                href="\results"
+                className="block hover:text-blue-600 transition"
+                onClick={() => setNavOpen(false)}
+              >
+                Results
+              </Link>
+            </li>
+              <Link
+                href="\plans"
+                className="block hover:text-blue-600 transition"
+                onClick={() => setNavOpen(false)}
+              >
+                Plans
+              </Link>
+            <li>
               <a
                 href="#about"
                 className="block hover:text-blue-600 transition"
