@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function ResultsPage() {
   const [navOpen, setNavOpen] = useState(false);
@@ -11,8 +12,14 @@ export default function ResultsPage() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="text-2xl font-bold text-blue-600 cursor-pointer">
-            CoachSports
+          <div>
+            <Image 
+              src="/SprintingSpeed.png"
+              alt="SprintingSpeed"
+              width={90}
+              height={10}
+              priority
+            />
           </div>
           {/* Desktop Links */}
           <ul className="hidden md:flex space-x-8 text-gray-700 font-semibold">
