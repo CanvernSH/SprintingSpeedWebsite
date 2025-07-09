@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import LoopCarousel from './components/LoopCarousel';
 import FAQ from './components/FAQ';
+import FeaturesCarousel from './components/FeaturesCarousel';
 
 export default function Home() {
   const [navOpen, setNavOpen] = useState(false);
@@ -199,6 +200,11 @@ export default function Home() {
           </div>
         </section>
 
+        {/*Features in a Carousel*/}
+        <section className="w-full">
+          <FeaturesCarousel />
+        </section>
+
         {/* FAQ Section */}
         <section id="faq" className="py-20 px-6 bg-gray-50">
           <div className="max-w-5xl mx-auto">
@@ -242,7 +248,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="py-10 px-6 bg-gray-800 text-gray-300 text-center">
-          <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved</p>
+          <p>&copy; {new Date().getFullYear()} SprintingSpeed.com. All rights reserved</p>
         </footer>
       </div>
     </>
