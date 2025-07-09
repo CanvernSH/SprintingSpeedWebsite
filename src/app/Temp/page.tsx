@@ -107,7 +107,7 @@ export default function Home() {
             <p className="font-semibold">— Coach Elena, Track Club</p>
           </div>
           <div className="bg-gray-100 p-6 rounded-2xl shadow-md">
-            <p className="italic mb-4">“I finally stopped getting shin splints and started improving my sprint mechanics. Best coaching I’ve had.”</p>
+            <p className="italic mb-4">“I finally stopped getting shin splints and started improving my sprint mechanics. Best coaching I&apos;ve had.”</p>
             <p className="font-semibold">— Michael A., Masters Athlete</p>
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function Home() {
       <section className="bg-red-600 text-white py-20 px-6 text-center">
         <h2 className="text-4xl font-bold mb-4">Ready to Start Your Speed Journey?</h2>
         <p className="text-lg max-w-xl mx-auto mb-8">
-          Whether you're chasing PBs, rebuilding your stride, or building explosive speed — let&apos;s get to work.
+          Whether you&apos;re chasing PBs, rebuilding your stride, or building explosive speed — let&apos;s get to work.
         </p>
         <a
           href="mailto:your@email.com" // Replace with your real email or link
