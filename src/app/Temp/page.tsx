@@ -34,7 +34,7 @@ export default function Home() {
       <section className="bg-white text-gray-900 py-16 px-6 text-center">
         <h2 className="text-4xl font-bold mb-4">Why Train With Me?</h2>
         <p className="text-lg max-w-2xl mx-auto mb-12">
-          With over 35 years of coaching experience and a track record of working with GB athletes, I bring elite-level training principles to every athlete I work with — whether you're just starting or chasing PBs.
+          With over 35 years of coaching experience and a track record of working with GB athletes, I bring elite-level training principles to every athlete I work with — whether you&apos;re just starting or chasing PBs.
         </p>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -57,7 +57,7 @@ export default function Home() {
       <section className="bg-gray-900 text-white py-16 px-6 text-center">
         <h2 className="text-4xl font-bold mb-4">Training Programs</h2>
         <p className="text-lg max-w-2xl mx-auto mb-12">
-          Whether you're a beginner or a seasoned athlete, there's a program designed to take your performance to the next level.
+          Whether you&apos;re a beginner or a seasoned athlete, there&apos;s a program designed to take your performance to the next level.
         </p>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -117,7 +117,7 @@ export default function Home() {
       <section className="bg-red-600 text-white py-20 px-6 text-center">
         <h2 className="text-4xl font-bold mb-4">Ready to Start Your Speed Journey?</h2>
         <p className="text-lg max-w-xl mx-auto mb-8">
-          Whether you're chasing PBs, rebuilding your stride, or building explosive speed — let’s get to work.
+          Whether you're chasing PBs, rebuilding your stride, or building explosive speed — let&apos;s get to work.
         </p>
         <a
           href="mailto:your@email.com" // Replace with your real email or link
