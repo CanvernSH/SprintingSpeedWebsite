@@ -42,7 +42,7 @@ export default function SportPlans() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div>
             <Image 
-              src="/SprintingSpeed.png"
+              src="/images/SprintingSpeed.png"
               alt="SprintingSpeed"
               width={90}
               height={10}

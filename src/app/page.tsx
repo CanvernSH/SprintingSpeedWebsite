@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from 'next/link';
 import Image from 'next/image';
+import LoopCarousel from './components/LoopCarousel';
 
 export default function Home() {
   const [navOpen, setNavOpen] = useState(false);
@@ -13,7 +14,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div>
             <Image 
-              src="/SprintingSpeed.png"
+              src="/images/SprintingSpeed.png"
               alt="SprintingSpeed"
               width={90}
               height={10}
@@ -153,23 +154,14 @@ export default function Home() {
       {/* Push content down so navbar doesn't cover */}
       <div id="home" className="pt-20">
         {/* Hero Section */}
-        <section className="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 to-green-500 text-white text-center p-6">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4">Train Like a Champion</h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-2xl">
-            Personalized coaching to help you reach your full athletic potential.
-          </p>
-          <a
-            href="#about"
-            className="bg-white text-blue-600 px-6 py-3 rounded-full text-lg font-semibold shadow hover:bg-gray-100 transition"
-          >
-            Learn More
-          </a>
+        <section className="w-full">
+          <LoopCarousel />
         </section>
 
         {/* About Section */}
         <section id="about" className="py-20 px-6 bg-gray-50">
           <div className="max-w-5xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-12">About Your Coach</h2>
+            <h2 className="text-4xl font-bold mb-12 text-black">About Your Coach</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
               <div className="bg-white rounded-xl shadow-md p-6">
                 <p className="text-3xl font-bold text-blue-600 mb-2">GB Athletes</p>
