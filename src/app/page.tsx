@@ -4,9 +4,25 @@ import { useState } from "react";
 import Link from 'next/link';
 import Image from 'next/image';
 import LoopCarousel from './components/LoopCarousel';
+import FAQ from './components/FAQ';
 
 export default function Home() {
   const [navOpen, setNavOpen] = useState(false);
+
+  const faqs = [
+    {
+      question: "How do I get started with training?",
+      answer: "Just head to the Contact section and fill out the form or send an email. I’ll get back to you with options.",
+    },
+    {
+      question: "What ages do you coach?",
+      answer: "I coach athletes of all levels, typically starting from age 10 up to adult professionals.",
+    },
+    {
+      question: "Do you offer remote/online coaching?",
+      answer: "Yes! I offer fully remote training plans and video analysis options for athletes who can’t attend in person.",
+    },
+  ];
 
   return (
     <>
@@ -180,6 +196,14 @@ export default function Home() {
                 <p className="text-gray-700 text-lg">Real results, real testimonials</p>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section id="faq" className="py-20 px-6 bg-gray-50">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-12 text-black">Frequently Asked Questions</h2>
+            <FAQ faqs={faqs} />
           </div>
         </section>
 
